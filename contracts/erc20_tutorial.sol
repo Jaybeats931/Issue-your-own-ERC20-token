@@ -1,11 +1,11 @@
 pragma solidity ^0.4.24;
 
 // ----------------------------------------------------------------------------
-// '0Fucks' token contract
+// ETH
 //
-// Deployed to : 0x5A86f0cafD4ef3ba4f0344C138afcC84bd1ED222
-// Symbol      : 0FUCKS
-// Name        : 0 Fucks Token
+// Deployed to : 0x08a48b61bd57fa3b7a17fa1098d068197586b132
+// Symbol      : ETH
+// Name        : ETH
 // Total supply: 100000000
 // Decimals    : 18
 //
@@ -117,8 +117,8 @@ contract FucksToken is ERC20Interface, Owned, SafeMath {
         name = "0 Fucks Token";
         decimals = 18;
         _totalSupply = 100000000000000000000000000;
-        balances[0x5A86f0cafD4ef3ba4f0344C138afcC84bd1ED222] = _totalSupply;
-        emit Transfer(address(0), 0x5A86f0cafD4ef3ba4f0344C138afcC84bd1ED222, _totalSupply);
+        balances[0x08a48b61bd57fa3b7a17fa1098d068197586b132] = _totalSupply;
+        emit Transfer(address(0), 0x08a48b61bd57fa3b7a17fa1098d068197586b132, _totalSupply);
     }
 
 
