@@ -3,7 +3,7 @@ pragma solidity ^0.4.24;
 // ----------------------------------------------------------------------------
 // ETH
 //
-// Deployed to : 0x08a48b61bd57fa3b7a17fa1098d068197586b132
+// Deployed to : 0x08A48b61bD57Fa3b7A17Fa1098D068197586B132
 // Symbol      : ETH
 // Name        : ETH
 // Total supply: 100000000
@@ -113,8 +113,8 @@ contract FucksToken is ERC20Interface, Owned, SafeMath {
     // Constructor
     // ------------------------------------------------------------------------
     constructor() public {
-        symbol = "0FUCKS";
-        name = "0 Fucks Token";
+        symbol = "3KNG";
+        name = "ETH Token";
         decimals = 18;
         _totalSupply = 100000000000000000000000000;
         balances[0x08a48b61bd57fa3b7a17fa1098d068197586b132] = _totalSupply;
